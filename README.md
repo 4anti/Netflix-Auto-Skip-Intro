@@ -9,7 +9,7 @@ Currently there is only On/Off option in the extension's menu.
 
 Download the files and put it inside a folder.
 
-Head over to [Opera Extensions](opera://extensions) to upload the package.
+Head over to opera://extensions to upload the package.
 
 Turn on Developer Mode.
 
