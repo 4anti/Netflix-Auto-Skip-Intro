@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "manifest_version": 3,
   "name": "Netflix Intro Skipper",
@@ -17,3 +18,24 @@
     }
   ]
 }
+=======
+{
+  "manifest_version": 3,
+  "name": "Netflix Intro Skipper",
+  "version": "1.0",
+  "description": "Changes the 'Skip Intro' button text and skips the intro automatically.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.netflix.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
+>>>>>>> 3f4dd836c3222bc4f8c41a0f99c7953203b3c912
