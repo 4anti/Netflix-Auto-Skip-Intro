@@ -1,5 +1,5 @@
 # Information
-This extension created to work on **Opera GX.** 
+This extension created to work on **Chrome**
 
 When watching series on Netflix, this extension will automatically skip the intro after 2 seconds. 
 
@@ -9,7 +9,7 @@ Currently there is only On/Off option in the extension's menu.
 
 Download the files and put it inside a folder.
 
-Head over to opera://extensions to upload the package.
+Head over to extensions to upload the package.
 
 Turn on Developer Mode.
 
